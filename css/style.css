@@ -1,0 +1,159 @@
+*{
+    box-sizing:border-box
+}
+a{
+    text-decoration: none;
+}
+th,td{
+    text-align: left;
+}
+
+body{
+    background: #0e0f10;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.head-search .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    margin:0 auto;
+    background:#0e0f10;
+    border-radius: 30px;
+    border: 0.1rem solid #ffffff8f;
+    font-size: 18px;
+}
+.head-search .search form{
+    width:80%;
+}
+.head-search .search form input{
+    border-radius: 30px;
+    background:#0e0f10;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding:12px 0;
+}
+.head-search .search .icon-search{
+    width: 8%;
+    text-align: center;
+    color:#ffffff8f;
+}
+.head-search .search .icon-voice{
+    width: 8%;
+    text-align: center;
+    color:#ffffff8f;
+}
+.head-search .search .icon-lens{
+    width: 8%;
+    text-align: center;
+    color:#ffffff8f;
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 0.1rem;
+    margin-top: 2rem;
+    right:0.5rem;
+}
+header nav .links a{
+    color: #fff;
+    text-align: center;
+}
+header nav .links+.img a:hover,header nav .links+.gmail a:hover{
+    text-decoration: underline;
+}
+header nav .img-profile {
+    width: 15%;
+}
+header nav .img-profile img {
+    border-radius: 50%;
+    width: 100%;
+}
+header nav .a img{
+    border-radius: 50%;
+    width: 15%;
+}
+header nav .a img{
+    border-radius: 50%;
+    width: 100%;
+}
+main {
+    text-align: center;
+    margin: 11rem;
+}
+.logo img {
+    width: 200px;
+}
+main .buttons button {
+    margin-top: 20px;
+    margin-right: 10px;
+    background: #2c3034;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main .translate p{
+    color: #fff;
+}
+footer{
+    background: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+footer .footer-links{
+    text-align: left;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+footer li {
+    padding: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .referances{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+  }
+  
+  .line::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+  }
+  
